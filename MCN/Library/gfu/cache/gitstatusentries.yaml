@@ -13,186 +13,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-11-07T10:41:57.496+01:00
-  initializedAtString: 2021-11-07T10:39:56.813+01:00
+  lastUpdatedAtString: 2021-11-07T11:40:43.843+01:00
+  initializedAtString: 2021-11-07T11:40:41.698+01:00
   entries:
-  - path: MCN\Assembly-CSharp.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
+  - path: MCN\Assets\model 2.dae
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\model 2.dae
+    projectPath: Assets\model 2.dae
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\model 2.dae.meta
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\model 2.dae.meta
+    projectPath: Assets\model 2.dae.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\model 3.dae
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\model 3.dae
+    projectPath: Assets\model 3.dae
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.45.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\model 3.dae.meta
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\model 3.dae.meta
+    projectPath: Assets\model 3.dae.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\model 4.dae
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\model 4.dae
+    projectPath: Assets\model 4.dae
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\model 4.dae.meta
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\model 4.dae.meta
+    projectPath: Assets\model 4.dae.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.45.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\physic.meta
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\physic.meta
+    projectPath: Assets\physic.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\physic\not-go-through.physicMaterial
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\physic\not-go-through.physicMaterial
+    projectPath: Assets\physic\not-go-through.physicMaterial
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\GitHub.UnityShim.dll.meta
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: MCN\Assets\physic\not-go-through.physicMaterial.meta
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\physic\not-go-through.physicMaterial.meta
+    projectPath: Assets\physic\not-go-through.physicMaterial.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\fps.AI.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\fps.AI.csproj
-    projectPath: fps.AI.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\fps.Editor.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\fps.Editor.csproj
-    projectPath: fps.Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\fps.Game.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\fps.Game.csproj
-    projectPath: fps.Game.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\fps.Gameplay.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\fps.Gameplay.csproj
-    projectPath: fps.Gameplay.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\fps.UI.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\fps.UI.csproj
-    projectPath: fps.UI.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\AnnotationManager
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\AnnotationManager
-    projectPath: Library\AnnotationManager
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\APIUpdater\project-dependencies.graph
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\APIUpdater\project-dependencies.graph
-    projectPath: Library\APIUpdater\project-dependencies.graph
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
   - path: MCN\Library\ArtifactDB
     fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\ArtifactDB
     projectPath: Library\ArtifactDB
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MCN\Library\ArtifactDB-lock
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\ArtifactDB-lock
-    projectPath: Library\ArtifactDB-lock
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\BuildSettings.asset
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\BuildSettings.asset
-    projectPath: Library\BuildSettings.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MCN\Library\CurrentLayout-default.dwlt
     fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\CurrentLayout-default.dwlt
     projectPath: Library\CurrentLayout-default.dwlt
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\EditorUserBuildSettings.asset
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\EditorUserBuildSettings.asset
-    projectPath: Library\EditorUserBuildSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -220,42 +106,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MCN\Library\MonoManager.asset
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\MonoManager.asset
-    projectPath: Library\MonoManager.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\PackageManager\ProjectCache
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\PackageManager\ProjectCache
-    projectPath: Library\PackageManager\ProjectCache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\PackageManager\ProjectCache.md5
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\PackageManager\ProjectCache.md5
-    projectPath: Library\PackageManager\ProjectCache.md5
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\ScriptMapper
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\ScriptMapper
-    projectPath: Library\ScriptMapper
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\ShaderCache.db
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\ShaderCache.db
-    projectPath: Library\ShaderCache.db
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MCN\Library\ShaderCache\EditorEncounteredVariants
     fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\ShaderCache\EditorEncounteredVariants
     projectPath: Library\ShaderCache\EditorEncounteredVariants
@@ -268,63 +118,9 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: MCN\Library\SourceAssetDB-lock
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\SourceAssetDB-lock
-    projectPath: Library\SourceAssetDB-lock
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\SpriteAtlasDatabase.asset
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\SpriteAtlasDatabase.asset
-    projectPath: Library\SpriteAtlasDatabase.asset
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
-    projectPath: Library\StateCache\MainStageHierarchy\8f\8fd65426490f636435c901d65ce7ed24.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\MCN.sln
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\MCN.sln
-    projectPath: MCN.sln
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\NavMeshComponents.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\NavMeshComponents.csproj
-    projectPath: NavMeshComponents.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\NavMeshComponentsEditor.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\NavMeshComponentsEditor.csproj
-    projectPath: NavMeshComponentsEditor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Packages\packages-lock.json
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Packages\packages-lock.json
-    projectPath: Packages\packages-lock.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\ProjectSettings\Packages\com.unity.learn.iet-framework\Settings.json
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\ProjectSettings\Packages\com.unity.learn.iet-framework\Settings.json
-    projectPath: ProjectSettings\Packages\com.unity.learn.iet-framework\Settings.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Unity.FPS.Tutorials.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Unity.FPS.Tutorials.csproj
-    projectPath: Unity.FPS.Tutorials.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Unity.Microgame.Tutorials.csproj
-    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Unity.Microgame.Tutorials.csproj
-    projectPath: Unity.Microgame.Tutorials.csproj
+  - path: MCN\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+    fullPath: C:\Users\laure\Documents\Ecole\ING4\Creation\MCN\Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
+    projectPath: Library\StateCache\SceneView\8b\8b0d1387a24a688f32df764794220fab.json
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

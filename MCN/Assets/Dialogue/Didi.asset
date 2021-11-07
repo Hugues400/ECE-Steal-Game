@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Didi
   dialogue:
-  - Hello ! I'm Didi ! What going on ?
+  - 'Hello ! I''m Didi ! What going on ?
+
+    I am a new student. '
   - Oh really ? Be careful there is a thief ...
   - Okay ... Bye ...
   playerDialogue:

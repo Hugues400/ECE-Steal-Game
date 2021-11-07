@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2021-11-07T12:32:37.482+01:00
-  initializedAtString: 2021-11-07T11:40:40.038+01:00
+  lastUpdatedAtString: 2021-11-07T17:52:18.922+01:00
+  initializedAtString: 2021-11-07T17:52:18.922+01:00
   currentGitRemote:
     name: origin
     url: https://github.com/Deltap3/Creation.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: Elise-Laure
-    tracking: origin/Elise-Laure
+    name: Dev
+    tracking: origin/Dev
   currentConfigBranch:
-    name: Elise-Laure
+    name: Dev
     remote:
       name: origin
       url: https://github.com/Deltap3/Creation.git
-    trackingBranch: Elise-Laure
+    trackingBranch: Dev
   currentConfigRemote:
     name: origin
     url: https://github.com/Deltap3/Creation.git

@@ -17,8 +17,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fps.AI", "fps.AI.csproj", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavMeshComponentsEditor", "NavMeshComponentsEditor.csproj", "{0066682A-F1ED-BFAA-918A-E4E8B11B3734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{67A02933-9242-016E-2513-B5D202512BFF}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Microgame.Tutorials", "Unity.Microgame.Tutorials.csproj", "{E5280777-33DB-F325-75BC-37B062F4B0F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fps.Editor", "fps.Editor.csproj", "{51E60B3F-9475-A36A-B755-B36EA535B873}"
@@ -61,10 +59,6 @@ Global
 		{0066682A-F1ED-BFAA-918A-E4E8B11B3734}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0066682A-F1ED-BFAA-918A-E4E8B11B3734}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0066682A-F1ED-BFAA-918A-E4E8B11B3734}.Release|Any CPU.Build.0 = Release|Any CPU
-		{67A02933-9242-016E-2513-B5D202512BFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{67A02933-9242-016E-2513-B5D202512BFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{67A02933-9242-016E-2513-B5D202512BFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{67A02933-9242-016E-2513-B5D202512BFF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E5280777-33DB-F325-75BC-37B062F4B0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E5280777-33DB-F325-75BC-37B062F4B0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5280777-33DB-F325-75BC-37B062F4B0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU

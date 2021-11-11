@@ -11,32 +11,44 @@ public class PlayerInteractions : MonoBehaviour
     public Item mem;
     public Camera PlayerCamera;
 
+    public int selector;
+    public int bag_size;
+    public GameObject[] bag;
+
     void Start()
     {
         current = null;
         mem = null;
-        characterReach = 2.5f;
+        characterReach = 20f;
+        selector = 0;
+        bag_size = 5;
+        bag = new GameObject[5];
+        //PlayerCamera = GameObject.Find("PlayerCamera").GetComponent<Camera>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Debug.Log(PlayerCamera.transform.localPosition.x.ToString());
+        //Debug.DrawRay(PlayerCamera.transform.position, (PlayerCamera.transform.position + PlayerCamera.transform.forward), Color.red, Time.deltaTime, false);
     }
 
-    /*void FixedUpdate()
+    void FixedUpdate()
     {
-        if(Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hit, characterReach, LayerMask.GetMask("Items Raycast")))
+        if(Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hit, characterReach/*, LayerMask.GetMask("Items Raycast")*/))
         {
-            //Debug.Log("Ray detection");
             mem = hit.collider.GetComponent<Item>();
 
-            if(current != null)
+            if(current == null)
+            {
+                current = mem;
+            }
+            else
             {
                 //Boucle normale : on regarde l'objet
                 if(current == mem)
                 {
-                    //Debug.Log("Hello there");
+                    Debug.Log("Hello there");
                     if(Input.GetKeyDown(KeyCode.E))
                     {
                         Interact(current);
@@ -55,19 +67,26 @@ public class PlayerInteractions : MonoBehaviour
         //Aucune détection
         else
         {
-            //Debug.Log("Bye then!");
+            Debug.Log("nope");
             if(current != null)
             {
+                Debug.Log("Bye then!");
                 current.OutlineStop();
                 current = null;
+                mem = null;
             }
         }
-        current = mem;
-    }*/
+    }
 
     void Interact(Item i)
     {
-        i.Interaction();
+        if(selector < bag_size)
+        {
+            Debug.Log("Picking up item");
+            bag[selector++] = i.gameObject;
+            i.Interaction();
+        }
+        
     }
 
 }

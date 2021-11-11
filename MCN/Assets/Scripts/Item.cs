@@ -22,7 +22,7 @@ public class Item : MonoBehaviour
 
     public void Interaction()
     {
-
+        gameObject.SetActive(false);
     }
     public void OutlineStart()
     {

@@ -52,6 +52,7 @@ public class PlayerInteractions : MonoBehaviour
                     if(Input.GetKeyDown(KeyCode.E))
                     {
                         Interact(current);
+                        source.Play();
                     }
                 }
                 //Boucle : plusieurs objets sur le raycast

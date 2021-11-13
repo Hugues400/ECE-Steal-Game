@@ -6,7 +6,7 @@ public class AudioController : MonoBehaviour
 {
     public AudioClip sound;
     
-    [Range(0f,1f)]
+    [Range(0f,0.5f)]
     public float volume;
 
     [Range(0.1f,2.5f)]
@@ -26,6 +26,7 @@ public class AudioController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
         source.clip = sound;
         source.volume = volume;
         source.pitch = pitch;
@@ -34,8 +35,11 @@ public class AudioController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        source.Play();
-
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            source.Play();
+        } 
+        
         source.volume = volume;
         source.pitch = pitch;
     }

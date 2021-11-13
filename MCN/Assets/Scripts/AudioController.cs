@@ -19,8 +19,8 @@ public class AudioController : MonoBehaviour
         gameObject.AddComponent<AudioSource>();
         source = GetComponent<AudioSource>();
 
-        volume 0.5f;
-        pitch 1f;
+        volume = 0.5f;
+        pitch = 1f;
     }
 
     // Start is called before the first frame update
@@ -34,6 +34,9 @@ public class AudioController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+        source.Play();
+
+        source.volume = volume;
+        source.pitch = pitch;
     }
 }

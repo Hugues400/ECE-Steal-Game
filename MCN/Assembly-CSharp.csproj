@@ -42,8 +42,8 @@
      <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXLightFlicker.cs" />
      <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
      <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXPortalScript.cs" />
-     <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGFXCycler.cs" />
      <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGFXCycler.cs" />
      <Compile Include="Assets\SettingsMenu.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne_License.txt" />

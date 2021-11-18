@@ -15,15 +15,21 @@ public class PlayerInteractions : MonoBehaviour
     public int bag_size;
     public GameObject[] bag;
 
+    public int playerScore;
+
+    public float throwForce;
+
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Locked;
         current = null;
         mem = null;
         characterReach = 20f;
-        selector = 0;
+        selector = -1;
         bag_size = 5;
         bag = new GameObject[5];
-        //PlayerCamera = GameObject.Find("PlayerCamera").GetComponent<Camera>();
+        playerScore = 0;
+        PlayerCamera = GameObject.Find("PlayerCamera").GetComponent<Camera>();
     }
 
     // Update is called once per frame
@@ -31,10 +37,19 @@ public class PlayerInteractions : MonoBehaviour
     {
         //Debug.Log(PlayerCamera.transform.localPosition.x.ToString());
         //Debug.DrawRay(PlayerCamera.transform.position, (PlayerCamera.transform.position + PlayerCamera.transform.forward), Color.red, Time.deltaTime, false);
+        if(selector > -1 && Input.GetMouseButtonDown(0))
+        {
+            Throw(bag[selector].GetComponent<Item>());
+            bag[selector] = null;
+            selector --;
+        }
     }
 
     void FixedUpdate()
     {
+        //Debug.Log(selector);
+
+
         if(Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hit, characterReach/*, LayerMask.GetMask("Items Raycast")*/))
         {
             mem = hit.collider.GetComponent<Item>();
@@ -48,7 +63,7 @@ public class PlayerInteractions : MonoBehaviour
                 //Boucle normale : on regarde l'objet
                 if(current == mem)
                 {
-                    Debug.Log("Hello there");
+                    //Debug.Log("Hello there");
                     if(Input.GetKeyDown(KeyCode.E))
                     {
                         Interact(current);
@@ -68,10 +83,10 @@ public class PlayerInteractions : MonoBehaviour
         //Aucune détection
         else
         {
-            Debug.Log("nope");
+            //Debug.Log("nope");
             if(current != null)
             {
-                Debug.Log("Bye then!");
+                //Debug.Log("Bye then!");
                 current.OutlineStop();
                 current = null;
                 mem = null;
@@ -84,9 +99,32 @@ public class PlayerInteractions : MonoBehaviour
         if(selector < bag_size)
         {
             Debug.Log("Picking up item");
-            bag[selector++] = i.gameObject;
+            selector++;
+            bag[selector] = i.gameObject;
             i.Interaction();
         }
+        
+    }
+
+    void Throw(Item i)
+    {
+        Rigidbody item = i.gameObject.GetComponent<Rigidbody>();
+
+
+        Vector3 throwVect = PlayerCamera.transform.position;
+        //throwVect.z += 4;
+        //throwVect.y += 0.5f;
+        i.gameObject.transform.position = throwVect;
+
+        i.gameObject.SetActive(true);
+        
+        item.velocity = Vector3.zero;
+        item.AddForce(PlayerCamera.transform.forward*throwForce);
+
+        item.angularVelocity = Vector3.zero;
+        Quaternion deltaRotation = Quaternion.Euler(new Vector3(Random.Range(-50.0f, 20.0f), 0, Random.Range(-30.0f, 70.0f)) * Time.fixedDeltaTime);
+        item.MoveRotation(item.rotation * deltaRotation);
+
         
     }
 

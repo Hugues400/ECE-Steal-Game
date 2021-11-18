@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class Timer : MonoBehaviour
 {
     float currentTime;
-    public float startingTime = 10f;
+    public float startingTime = 1000f;
 
     [SerializeField] Text countdownText;
     void Start()
@@ -16,13 +16,13 @@ public class Timer : MonoBehaviour
     }
     void Update()
     {
-        currentTime = -1 * Time.deltaTime;
+        currentTime -= 1 * Time.deltaTime;
         countdownText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)
         {
             currentTime = 0;
-            SceneManager.LoadScene("Main menu");
+            SceneManager.LoadScene("Main_menu");
         }
     }
 }

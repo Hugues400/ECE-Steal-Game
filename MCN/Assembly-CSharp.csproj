@@ -39,33 +39,20 @@
      <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
      <Compile Include="Assets\Scripts\Item.cs" />
      <Compile Include="Assets\Player\PlayerInteractions.cs" />
-     <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXRotation.cs" />
+     <Compile Include="Assets\Scoremanager.cs" />
      <Compile Include="Assets\Player\MouseLook.cs" />
-     <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGFXLoopScript.cs" />
      <Compile Include="Assets\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Dialogue\NPC.cs" />
-     <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXLightFade.cs" />
-     <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXLightFlicker.cs" />
-     <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
-     <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXPortalScript.cs" />
-     <Compile Include="Assets\MainMenu.cs" />
-     <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGFXCycler.cs" />
-     <Compile Include="Assets\SettingsMenu.cs" />
-     <Compile Include="Assets\Scoremanager.cs" />
      <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
+     <Compile Include="Assets\SettingsMenu.cs" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne_License.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
-     <None Include="Assets\FPS\Prefabs\PBObjects\_ReadMe_PBObjects.txt" />
-     <None Include="Assets\FPS\Art\Fonts\ApacheLicense2.0.txt" />
-     <None Include="Assets\ARPG Effects\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\FPS\Art\Shaders\ProjectorMultiply.shader" />
-     <None Include="Assets\FPS\Prefabs\RootObjects\_ReadMe_RootObjects.txt" />
-     <None Include="Assets\FPS\Prefabs\Level\BaseObjects\_ReadMe_BaseObjects.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
@@ -75,8 +62,6 @@
      <None Include="Assets\QuickOutline\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\FPS\Third-PartyNotice.txt" />
-     <None Include="Assets\FPS\FPSMicrogame_README.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
@@ -307,7 +292,7 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="System.IO.Compression.FileSystem">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\PackageCache\com.unity.connect.share@4.1.1\Plugins\System.IO.Compression.FileSystem.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\PackageCache\com.unity.connect.share@4.1.1\Plugins\System.IO.Compression.FileSystem.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -655,87 +640,67 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.InteractiveTutorialsFramework">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\UnityEditor.InteractiveTutorialsFramework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Play.Publisher.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.Play.Publisher.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.dll</HintPath>
     </Reference>
     <Reference Include="Unity.EditorCoroutines.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridgeDev.001">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.InternalAPIEditorBridgeDev.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InteractiveTutorials.Core.Scripts">
-        <HintPath>C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
+        <HintPath>C:\Users\valen\Documents\GitHub\Creation\MCN\Library\ScriptAssemblies\Unity.InteractiveTutorials.Core.Scripts.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="fps.UI.csproj">
-      <Project>{22c509ee-6665-436c-37c7-722021542a1a}</Project>
-      <Name>fps.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="fps.Editor.csproj">
-      <Project>{3f0be651-7594-6aa3-b755-b36ea535b873}</Project>
-      <Name>fps.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="fps.AI.csproj">
-      <Project>{654d1750-5085-e307-6149-11487c37b776}</Project>
-      <Name>fps.AI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Microgame.Tutorials.csproj">
-      <Project>{770728e5-db33-25f3-75bc-37b062f4b0f6}</Project>
-      <Name>Unity.Microgame.Tutorials</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.FPS.Tutorials.csproj">
-      <Project>{86d3c1d3-876a-1763-408b-f7d22174c4a1}</Project>
-      <Name>Unity.FPS.Tutorials</Name>
-    </ProjectReference>
     <ProjectReference Include="NavMeshComponents.csproj">
       <Project>{67f5c210-c03c-642c-437e-39a1ba785463}</Project>
       <Name>NavMeshComponents</Name>
@@ -743,14 +708,6 @@
     <ProjectReference Include="NavMeshComponentsEditor.csproj">
       <Project>{2a686600-edf1-aabf-918a-e4e8b11b3734}</Project>
       <Name>NavMeshComponentsEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="fps.Game.csproj">
-      <Project>{dfc6c5d9-5af6-4a88-f6cb-1098a9c0febd}</Project>
-      <Name>fps.Game</Name>
-    </ProjectReference>
-    <ProjectReference Include="fps.Gameplay.csproj">
-      <Project>{5ce4e6ed-6ff1-71f6-9d85-8436161ed83e}</Project>
-      <Name>fps.Gameplay</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

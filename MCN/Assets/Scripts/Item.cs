@@ -7,11 +7,16 @@ public class Item : MonoBehaviour
 {
     public Outline outline; 
 
+    public int weight;
+
+    public string type;
+
     // Start is called before the first frame update
     void Start()
     {
         outline = gameObject.AddComponent(typeof(Outline)) as Outline;
         OutlineStop();
+        weight = (int) gameObject.GetComponent<Rigidbody>().mass;
     }
 
     // Update is called once per frame

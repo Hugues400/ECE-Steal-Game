@@ -36,8 +36,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+     <Compile Include="Assets\Scripts\Item.cs" />
+     <Compile Include="Assets\Player\PlayerInteractions.cs" />
      <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXRotation.cs" />
+     <Compile Include="Assets\Player\MouseLook.cs" />
      <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGFXLoopScript.cs" />
+     <Compile Include="Assets\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Dialogue\DialogueManager.cs" />
+     <Compile Include="Assets\Dialogue\NPC.cs" />
      <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXLightFade.cs" />
      <Compile Include="Assets\ARPG Effects\Scripts\ARPGFXLightFlicker.cs" />
      <Compile Include="Assets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
@@ -49,6 +56,7 @@
      <None Include="Assets\TextMesh Pro\Sprites\EmojiOne_License.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
      <None Include="Assets\FPS\Prefabs\PBObjects\_ReadMe_PBObjects.txt" />
      <None Include="Assets\FPS\Art\Fonts\ApacheLicense2.0.txt" />
      <None Include="Assets\ARPG Effects\Readme.txt" />
@@ -62,6 +70,7 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\QuickOutline\Readme.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
      <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\FPS\Third-PartyNotice.txt" />
@@ -69,6 +78,7 @@
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
      <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />

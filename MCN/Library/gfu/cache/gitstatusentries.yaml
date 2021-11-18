@@ -13,15 +13,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2021-11-14T20:52:03.318+01:00
-  initializedAtString: 2021-11-14T20:51:52.314+01:00
+  lastUpdatedAtString: 2021-11-18T10:51:09.009+01:00
+  initializedAtString: 2021-11-18T10:51:06.404+01:00
   entries:
-  - path: MCN\Assembly-CSharp.csproj
-    fullPath: C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: MCN\Library\ArtifactDB
     fullPath: C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\ArtifactDB
     projectPath: Library\ArtifactDB
@@ -45,13 +39,7 @@ MonoBehaviour:
     projectPath: Library\gfu\cache\gitstatusentries.yaml
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\gfu\cache\gittrackingstatus.yaml
-    fullPath: C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\gfu\cache\gittrackingstatus.yaml
-    projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: MCN\Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
@@ -14715,12 +14703,6 @@ MonoBehaviour:
   - path: MCN\Library\PackageManager\ProjectCache
     fullPath: C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\PackageManager\ProjectCache
     projectPath: Library\PackageManager\ProjectCache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: MCN\Library\PackageManager\ProjectCache.md5
-    fullPath: C:\Users\maist\Documents\4_Fichiers ING4\MCN\Tuto FPS Unity\Creation\MCN\Library\PackageManager\ProjectCache.md5
-    projectPath: Library\PackageManager\ProjectCache.md5
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3

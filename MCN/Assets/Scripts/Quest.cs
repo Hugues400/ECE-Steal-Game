@@ -31,6 +31,25 @@ public class Quest : MonoBehaviour
             questTracker++;
             Debug.Log(questTracker);
         }
+        if(checkEnd())
+        {
+            endQuest();
+        }
+    }
+
+    public bool checkEnd (){
+        if(questTracker>=goal)
+            return true;
+        else
+            return false;
+
     } 
+
+    public void endQuest()
+    {
+        Debug.Log("END QUEST");
+        Destroy (this);
+    }
+
 
 }

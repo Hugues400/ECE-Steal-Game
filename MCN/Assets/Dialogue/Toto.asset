@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e44fe2360e8d67c439134db9f54225a6, type: 3}
   m_Name: Toto
   m_EditorClassIdentifier: 
-  name: 
+  name: Toto
   dialogue:
   - Welcome to ECE STEAL ! What can I do for you ?
   - Your mission is to steal ...

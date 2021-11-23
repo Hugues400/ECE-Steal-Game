@@ -19,6 +19,9 @@ public class PlayerInteractions : MonoBehaviour
 
     public float throwForce;
 
+    public int questTracker;
+    public bool questActive;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -30,6 +33,8 @@ public class PlayerInteractions : MonoBehaviour
         bag = new GameObject[5];
         playerScore = 0;
         PlayerCamera = GameObject.Find("PlayerCamera").GetComponent<Camera>();
+        questTracker = 0;
+        questActive = false;
     }
 
     // Update is called once per frame
@@ -124,6 +129,12 @@ public class PlayerInteractions : MonoBehaviour
         item.angularVelocity = Vector3.zero;
         Quaternion deltaRotation = Quaternion.Euler(new Vector3(Random.Range(-50.0f, 20.0f), 0, Random.Range(-30.0f, 70.0f)) * Time.fixedDeltaTime);
         item.MoveRotation(item.rotation * deltaRotation);
+
+        if (questActive)
+        {
+            questTracker++;
+            Debug.Log(questTracker);
+        }
 
         
     }

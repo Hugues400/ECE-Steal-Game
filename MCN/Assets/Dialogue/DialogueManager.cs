@@ -66,6 +66,9 @@ public class DialogueManager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
                     npcDialogueBox.text = npc.dialogue[1];
+                    if (npc.name == "Toto"){
+                        quest();
+                    }
                 }
             }
             else if (curResponseTracker == 1 && npc.playerDialogue.Length >= 1)
@@ -101,6 +104,15 @@ public class DialogueManager : MonoBehaviour
     {
         isTalking = false;
         dialogueUI.SetActive(false);
+    }
+
+    void quest(){
+        Debug.Log("Dans la quete");
+        // appeler un script pour lancer la fenetre UI de declenchement de quete
+        // voir Pierre
+
+        player.GetComponent<PlayerInteractions>().questActive = true;
+
     }
 
 }

@@ -22,7 +22,6 @@ public class DialogueManager : MonoBehaviour
     public Text playerResponse;
 
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +66,7 @@ public class DialogueManager : MonoBehaviour
                 {
                     npcDialogueBox.text = npc.dialogue[1];
                     if (npc.name == "Toto"){
-                        quest();
+                        quest("First Quest", 3, "Throw");
                     }
                 }
             }
@@ -106,13 +105,13 @@ public class DialogueManager : MonoBehaviour
         dialogueUI.SetActive(false);
     }
 
-    void quest(){
+    void quest(string title, int goal, string type){
         Debug.Log("Dans la quete");
         // appeler un script pour lancer la fenetre UI de declenchement de quete
         // voir Pierre
-
-        player.GetComponent<PlayerInteractions>().questActive = true;
-
+        PlayerInteractions pi =  player.GetComponent<PlayerInteractions>();
+        Quest q = pi.questManager.AddComponent<Quest>() as Quest;
+        q.setAttributes(title, goal, type);
     }
 
 }

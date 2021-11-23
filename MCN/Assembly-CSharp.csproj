@@ -52,6 +52,7 @@
      <Compile Include="Assets\Player\PlayerInteractions.cs" />
      <Compile Include="Assets\Scoremanager.cs" />
      <Compile Include="Assets\Player\MouseLook.cs" />
+     <Compile Include="Assets\Quest.cs" />
      <Compile Include="Assets\Player\PlayerMovement.cs" />
      <Compile Include="Assets\Dialogue\DialogueManager.cs" />
      <Compile Include="Assets\Dialogue\NPC.cs" />

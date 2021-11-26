@@ -14,10 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jeff
   dialogue:
-  - 'Hello ! How are you ? '
-  - Good ! Thank you !
-  - I am in the same minor as you !
-  - See you later ..
+  - "Hello ! How are you ? \n\n(Push E to quit)"
+  - 'Good ! Thank you !
+
+
+    (Push E to quit)'
+  - 'I am in the same minor as you !
+
+
+    (Push E to quit)'
+  - 'See you later ..
+
+
+    (Push E to quit)'
   playerDialogue:
   - Fine, and you ?
   - 'What is your class ? '

@@ -14,11 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Didi
   dialogue:
-  - 'Hello ! I''m Didi ! What going on ?
+  - "Hello ! I'm Didi ! What going on ?\nI am a new student. \n\n(Push E to quit)"
+  - 'Oh really ? Be careful there is a thief ...
 
-    I am a new student. '
-  - Oh really ? Be careful there is a thief ...
-  - Okay ... Bye ...
+
+    (Push E to quit)'
+  - 'Okay ... Bye ...
+
+
+    (Push E to quit)'
   playerDialogue:
   - HI ! Nice to meet you Didi ! I am searching something ...
   - 'Oh sorry I got the wrong person ... '

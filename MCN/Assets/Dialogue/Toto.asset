@@ -14,10 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Toto
   dialogue:
-  - Welcome to ECE STEAL ! What can I do for you ?
-  - Your mission is to steal ...
-  - 'Congratulation ! You earn 45.6 milliards d''euros !!!  '
-  - 'Okay ! Come back soon =) '
+  - 'Welcome to ECE STEAL ! What can I do for you ?
+
+
+    (Push E to quit)'
+  - "Your mission is to steal 3 objects and throw it \n\n(Push E to quit)"
+  - "Congratulation ! You earn 45.6 milliards d'euros !!!  \n\n(Push E to quit)"
+  - "Okay ! Come back soon =) \n\n(Push E to quit)"
   playerDialogue:
   - 'What is my daily mission today ? '
   - 'My rewards ? '

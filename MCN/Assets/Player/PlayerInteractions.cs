@@ -21,6 +21,8 @@ public class PlayerInteractions : MonoBehaviour
 
     public GameObject questManager;
 
+    public Catch_Object Sound;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
@@ -32,6 +34,7 @@ public class PlayerInteractions : MonoBehaviour
         bag = new GameObject[5];
         playerScore = 0;
         PlayerCamera = GameObject.Find("PlayerCamera").GetComponent<Camera>();
+        Sound = GameObject.Find("CatchObject").GetComponent<Catch_Object>();
 
     }
 
@@ -70,6 +73,7 @@ public class PlayerInteractions : MonoBehaviour
                     if(Input.GetKeyDown(KeyCode.E))
                     {
                         Interact(current);
+                        Sound.PlaySound();
 
                     }
                 }
@@ -120,6 +124,7 @@ public class PlayerInteractions : MonoBehaviour
         i.gameObject.transform.position = throwVect;
 
         i.gameObject.SetActive(true);
+        //son lacher objet
         
         item.velocity = Vector3.zero;
         item.AddForce(PlayerCamera.transform.forward*throwForce);

@@ -9,6 +9,10 @@ public class PlayerInteractions : MonoBehaviour
     public float characterReach;
     public Item current;
     public Item mem;
+
+    public bool is_looking;
+
+    private bool is_throwing;
     public Camera PlayerCamera;
 
     public int selector;
@@ -23,11 +27,15 @@ public class PlayerInteractions : MonoBehaviour
 
     public Catch_Object Sound;
 
+
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         current = null;
         mem = null;
+        is_looking = false;
+        is_throwing = false;
         characterReach = 20f;
         selector = -1;
         bag_size = 5;
@@ -43,20 +51,29 @@ public class PlayerInteractions : MonoBehaviour
     {
         //Debug.Log(PlayerCamera.transform.localPosition.x.ToString());
         //Debug.DrawRay(PlayerCamera.transform.position, (PlayerCamera.transform.position + PlayerCamera.transform.forward), Color.red, Time.deltaTime, false);
-        if(selector > -1 && Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && selector > -1)
         {
-            Throw(bag[selector].GetComponent<Item>());
-            bag[selector] = null;
-            selector --;
+            is_throwing = true;
+            Debug.Log("test here");
+        }
+
+        if(Input.GetKeyDown(KeyCode.E) == true && is_looking == true)
+        {
+            Interact(current);
         }
     }
 
     void FixedUpdate()
     {
         //Debug.Log(selector);
+        if(is_throwing == true)
+        {
+            Throw(bag[selector]);
+            is_throwing = false;
+        }
+        
 
-
-        if(Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hit, characterReach/*, LayerMask.GetMask("Items Raycast")*/))
+        if(Physics.Raycast(PlayerCamera.transform.position, PlayerCamera.transform.forward, out RaycastHit hit, characterReach, LayerMask.GetMask("Items Raycast")))
         {
             mem = hit.collider.GetComponent<Item>();
 
@@ -69,13 +86,9 @@ public class PlayerInteractions : MonoBehaviour
                 //Boucle normale : on regarde l'objet
                 if(current == mem)
                 {
+                    is_looking = true;
                     //Debug.Log("Hello there");
-                    if(Input.GetKeyDown(KeyCode.E))
-                    {
-                        Interact(current);
-                        Sound.PlaySound();
-
-                    }
+                    
                 }
                 //Boucle : plusieurs objets sur le raycast
                 else if(current != mem)
@@ -97,33 +110,39 @@ public class PlayerInteractions : MonoBehaviour
                 current.OutlineStop();
                 current = null;
                 mem = null;
+                is_looking = false;
             }
         }
     }
 
     void Interact(Item i)
     {
-        if(selector < bag_size)
+        if(selector < bag_size - 1)
         {
-            Debug.Log("Picking up item");
+            i.gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
             selector++;
+            //Debug.Log("Picking up item "+selector);
             bag[selector] = i.gameObject;
             i.Interaction();
+            Sound.PlaySound();
         }
         
     }
 
-    void Throw(Item i)
+    void Throw(GameObject i)
     {
-        Rigidbody item = i.gameObject.GetComponent<Rigidbody>();
+        //Debug.Log("Throwing item " + selector);
+        selector--;
+        
+        Rigidbody item = i.GetComponent<Rigidbody>();
 
 
         Vector3 throwVect = PlayerCamera.transform.position;
         //throwVect.z += 4;
         //throwVect.y += 0.5f;
-        i.gameObject.transform.position = throwVect;
+        i.transform.position = throwVect;
 
-        i.gameObject.SetActive(true);
+        i.SetActive(true);
         //son lacher objet
         
         item.velocity = Vector3.zero;
